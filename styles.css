@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main{
+    background-color:hsl(216, 50%, 16%) ;
+    width: 270px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;    
+    font-family: "Outfit",sans-serif;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px hsl(216, 52%, 6%)  ;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+p{
+    color:hsl(215, 51%, 70%);
+
+}
+.price{
+    color:hsl(178, 100%, 50%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.time{
+    color:hsl(215, 51%, 70%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+}
+.footer img{
+    height:30px;
+    width: 30px;
+    margin-right: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.footer{
+    color:hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.Signature{
+    color:white;
+}
+main img{
+    height: 280px;
+    width: 270px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#trait_dessus{
+    border-top: 1px solid;
+    border-color: hsl(215, 32%, 27%);
+    margin-top: 1.6rem;
+}
+.time img{
+    width: 15px;
+    height: 15px;
+    padding-right: 7px;
+}
+.price img{
+    width:15px;
+    height:15px;
+    padding-right: 7px;
+
+}
+.footer span{
+    margin-left: 5px;
+}

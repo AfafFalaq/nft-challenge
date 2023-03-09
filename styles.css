@@ -17,7 +17,9 @@ main{
     border-radius: 10px;
     padding: 25px;
     box-shadow: 10px 10px 10px 10px hsl(216, 52%, 6%)  ;
+    position: relative;
 }
+
 .title{
     color: white;
     font-size: 20px;
@@ -57,7 +59,8 @@ p{
 .Signature{
     color:white;
 }
-main img{
+#NFTimg{
+    z-index: 400;
     height: 280px;
     width: 270px;
     display: flex;
@@ -65,6 +68,22 @@ main img{
     justify-content: center;
     border-radius: 10px;
 }
+#NFTimg:hover{
+    filter: invert(25%) sepia(100%) saturate(550%) hue-rotate(140deg) brightness(90%) contrast(100%);
+}
+#NFTimg:hover ~ #view{
+    z-index: 500;
+}
+
+#view{
+    position: absolute;
+    z-index: -100;
+    width: 40px;
+    top: 140px;
+    left: 140px;
+}
+
+
 #trait_dessus{
     border-top: 1px solid;
     border-color: hsl(215, 32%, 27%);
@@ -83,4 +102,11 @@ main img{
 }
 .footer span{
     margin-left: 5px;
+}
+.title:hover{
+    color:aquamarine;
+
+}
+.Signature:hover{
+    color:aquamarine;
 }
